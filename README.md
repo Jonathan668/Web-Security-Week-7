@@ -12,6 +12,12 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
+  
+  
+  ![XSS](https://user-images.githubusercontent.com/54424389/68551156-e3079b80-03d7-11ea-924a-6d8dbb1296be.gif)
+
+
+
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
