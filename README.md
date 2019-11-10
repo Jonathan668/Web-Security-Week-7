@@ -21,7 +21,7 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate: 
     - First, we create a new post and set the editor to HTML edit mode. Then, we paste the code ```<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a> ```in the body. Finally, we click preview and hover over the link to see the message. 
   - [ ] Affected source code:
-    - [Link 1](https://https://core.trac.wordpress.org/browser/branches/4.2/src/wp-includes/class-wp-editor.php?rev=33361)
+    - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-includes/class-wp-editor.php?rev=33361)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
