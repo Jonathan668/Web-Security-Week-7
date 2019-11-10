@@ -39,16 +39,18 @@ Time spent: **X** hours spent in total
   - [ ] Steps to recreate:
     - An unauthenticated user injects Javascript code through making a comment that is long enough to be truncated when inserted in the         database. Once the comment is seen and approved by admin, the unauthethicated user's code will be executed.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=32311%40branches%2F4.2&old=32300%40branches%2F4.2)
-1. (Required) Vulnerability Name or ID
+    - [Link 2](https://core.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=32311%40branches%2F4.2&old=32300%40branches%2F4.2)
+
+**3. (Required) Vulnerability Name or ID: Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds**
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
+    - Make a new post with the format set to "Video." Paste the code ```[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]``` in the body. Each time we preview the post, we will see an alert box with the message "1" pop up.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 3](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -85,7 +87,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2019] [Jonathan So]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
