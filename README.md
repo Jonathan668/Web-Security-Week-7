@@ -14,7 +14,7 @@ Time spent: **X** hours spent in total
   - [ ] GIF Walkthrough: 
   
   
-  ![XSS](https://user-images.githubusercontent.com/54424389/68551156-e3079b80-03d7-11ea-924a-6d8dbb1296be.gif)
+        ![XSS](https://user-images.githubusercontent.com/54424389/68551156-e3079b80-03d7-11ea-924a-6d8dbb1296be.gif)
 
 
 
