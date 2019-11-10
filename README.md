@@ -6,7 +6,7 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID: Authenticated Stored Cross-Site Scripting(XSS)
+1. (Required) Vulnerability Name or ID: Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.2
@@ -22,15 +22,16 @@ Time spent: **X** hours spent in total
     - First, we create a new post and set the editor to HTML edit mode. Then, we paste the code ```<a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a> ```in the body. Finally, we click preview and hover over the link to see the message. 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-includes/class-wp-editor.php?rev=33361)
-1. (Required) Vulnerability Name or ID
+1. (Required) Vulnerability Name or ID: Unauthenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate:
+    - An unauthenticated user injects Javascript code making a comment that is long enough to be truncated when inserted in the         database. Once the comment is seen and approved by admin, the unauthethicated user's code will be executed.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://core.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=32311%40branches%2F4.2&old=32300%40branches%2F4.2)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
