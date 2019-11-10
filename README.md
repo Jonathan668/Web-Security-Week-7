@@ -28,8 +28,15 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
+  
+  
+  ![XSS_2](https://user-images.githubusercontent.com/54424389/68552047-cae84a00-03e0-11ea-8c48-39b32a557d31.gif)
+
+
+  ![XSS_3](https://user-images.githubusercontent.com/54424389/68552049-cde33a80-03e0-11ea-80aa-fd31aff560dc.gif)
+
   - [ ] Steps to recreate:
-    - An unauthenticated user injects Javascript code making a comment that is long enough to be truncated when inserted in the         database. Once the comment is seen and approved by admin, the unauthethicated user's code will be executed.
+    - An unauthenticated user injects Javascript code through making a comment that is long enough to be truncated when inserted in the         database. Once the comment is seen and approved by admin, the unauthethicated user's code will be executed.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=32311%40branches%2F4.2&old=32300%40branches%2F4.2)
 1. (Required) Vulnerability Name or ID
