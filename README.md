@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **9** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -58,24 +58,6 @@ Time spent: **X** hours spent in total
     - Make a new post with the format set to "Video." Paste the code ```[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]``` in the body. Each time we preview the post, we will see an alert box with the message "1" pop up.
   - [ ] Affected source code:
     - [Link 3](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
