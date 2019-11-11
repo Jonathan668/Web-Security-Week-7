@@ -36,6 +36,7 @@ Time spent: **X** hours spent in total
 
   ![XSS_3](https://user-images.githubusercontent.com/54424389/68552049-cde33a80-03e0-11ea-80aa-fd31aff560dc.gif)
 
+
   - [ ] Steps to recreate:
     - An unauthenticated user injects Javascript code through making a comment that is long enough to be truncated when inserted in the         database. Once the comment is seen and approved by admin, the unauthethicated user's code will be executed.
   - [ ] Affected source code:
@@ -47,6 +48,12 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
+  
+  
+  ![YouTube](https://user-images.githubusercontent.com/54424389/68553084-308e0380-03ec-11ea-9d3c-e51b2b68c962.gif)
+
+
+
   - [ ] Steps to recreate: 
     - Make a new post with the format set to "Video." Paste the code ```[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]``` in the body. Each time we preview the post, we will see an alert box with the message "1" pop up.
   - [ ] Affected source code:
